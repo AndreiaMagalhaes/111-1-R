@@ -74,4 +74,24 @@ c(TRUE, TRUE, F) -> covidPositive
 ```
 #they are all the same
 
+```{r}
+#a type of vector in R
+list(111,1,"U1046","","","", ....)
+```
+
+```{r}
+#atomic vector
+c(111,111,111, ....)
+#
+```
+
+
+
+```{r}
+#concaténer
+typeof(c("a", "b"))
+typeof(c("c", "d"))
+c(c("a", "b"), c("c", "d")) 
+```
+
 
